@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/scripts.js"></script>
+<title>To Dolist</title>
+</head>
+<body>
+<!--activity form -->
+  <div class="task-list" id="pending">
+  <h3>To DOlist</h3>
+  <!-- Sample task added manually to check look -->
+  <div class="todo-task">
+    <div class="task-header">Sample Header</div>
+    <div class="task-date">25/06/1992</div>
+    <div class="task-description">Lorem Ipsum Dolor Sit Amet</div>
+  </div>
+</div>
+
+<div class="task-list" id="inProgress">
+  <h3>In Progress</h3>
+</div>
+
+<div class="task-list" id="completed">
+  <h3>Completed</h3>
+</div>
+
+<div class="task-list">
+  <h3>Add a task</h3>
+  <form id="todo-form">
+    <input type="text" placeholder="Title" />
+    <textarea placeholder="Descrtipion"></textarea>
+    <input type="text" placeholder="Due Date (dd/mm/yyyy)" />
+    <input type="button" class="btn btn-primary" value="Add Task" />
+  </form>
+
+  <input type="button" class="btn btn-primary" value="Clear Data" />
+
+  <div id="delete-div">Drag Here to Delete</div>
+</div>
+</div>
+</body>
+</html>
