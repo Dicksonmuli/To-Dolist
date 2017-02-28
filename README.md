@@ -1,6 +1,6 @@
 # To Do List
 
-[Project site](https://dicksonmuli.github.io/To-Dolist/)
+[Click here to view Project site](https://dicksonmuli.github.io/To-Dolist/)
 
 Authors: Dickson Isaiah
 Contributors: Philip Mutua
