@@ -1,4 +1,4 @@
-# Project Name
+# To Do List
 
 [Project site](https://dicksonmuli.github.io/To-Dolist/)
 
